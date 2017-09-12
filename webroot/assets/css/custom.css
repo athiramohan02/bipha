@@ -1,0 +1,31 @@
+/* here you can put your own css to customize and override the theme */
+/* Color of invalid field */
+.has-error .control-label,
+.has-error .help-block,
+.has-error .form-control-feedback {
+    color: #a94442;
+}
+
+/* Color of valid field */
+.has-success .control-label,
+.has-success .help-block,
+.has-success .form-control-feedback {
+    color: #3c763d;
+}
+.accname{margin-left: 15px;font-size: 26px;}
+
+
+.navbar-brand {
+   float: left;
+   padding: 6px 15px;
+   font-size: 18px;
+   line-height: 20px;
+}
+.header .navbar-brand {
+   display: inline-block;
+   margin-top: -1px;
+   margin-right: 0;
+   padding-left: 0px;
+   padding-right: 40px;
+   width: 225px;
+}
